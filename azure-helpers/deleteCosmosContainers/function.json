@@ -5,10 +5,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": [
-        "get",
-        "post"
-      ]
+      "methods": ["post"]
     },
     {
       "type": "http",
@@ -16,5 +13,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/deleteCosmosDBContainers/index.js"
+  "scriptFile": "../dist/deleteCosmosContainers/index.js"
 }

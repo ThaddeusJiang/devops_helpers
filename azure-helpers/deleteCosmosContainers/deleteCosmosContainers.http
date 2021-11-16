@@ -1,0 +1,8 @@
+# deleteCosmosContainers
+POST http://localhost:7071/api/deleteCosmosDBContainers
+content-type: application/json
+
+{
+    "databaseId": "SmartCompany",
+    "containers": ["Data_jiang-12", "Data_jiang-13", "Data_jiang-test-1108", "Data_jiang-test-111101"]
+}
